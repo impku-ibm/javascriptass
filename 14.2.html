@@ -1,0 +1,31 @@
+ var myObj = [
+     { 'name': 'Saurabh', 'age': 30, 'occupation': "Team Leader" },
+     { 'name': 'Anupriya', 'age': 32, 'occupation': "Team Leader" },
+     { 'name': 'Kalyani', 'age': 25, 'occupation': "Programmer" },
+     { 'name': 'Damodaran', 'age': 27, 'occupation': "Programmer" },
+     { 'name': 'Krishnakath', 'age': 22, 'occupation': "Programmer" },
+     { 'name': 'Venketraman', 'age': 28, 'occupation': "Programmer" }
+ ];
+
+ console.log("Question 14");
+ console.log("Exercise 1");
+ console.log("Showing all objects with occupation as Programmer");
+
+ for (var i = 0; i < myObj.length; i++) {
+     if (myObj[i].occupation === "Programmer") {
+        console.log(myObj[i]);
+    }
+    }
+
+// console.log("Exercise 2");
+// console.log("Sorting all objects w.r.t. age");
+
+// function compare(a, b) {
+//     if (a.age > b.age) {
+//         return 1;
+//     } else if (b.age > a.age) {
+//         return -1;
+//     }
+//     return 0;
+// }
+// console.log(myObj.sort(compare))

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="utf-8">
+  <title>User-defined objects></title>
+    </head>
+    <script>
+function char_count(str, letter) 
+{
+ var letter_Count = 0;
+ for (var position = 0; position < str.length; position++) 
+ {
+    if (str.charAt(position) == letter) 
+      {
+      letter_Count += 1;
+      }
+  }
+  return letter_Count;
+}
+
+document.write(char_count('gmail.com', 'm'));
+
+        </script>
+<body>
+       
+</body>
+</html>
